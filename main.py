@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_excel(open('lab_pi_101.xlsx'))
+data = pd.read_excel('lab_pi_101.xlsx')
 
 df = pd.DataFrame(data) 
 pi101_row = df[df['Группа']=='ПИ101']
